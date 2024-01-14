@@ -1,0 +1,13 @@
+@media (max-width:420px) {
+    .header{display: none;}
+    .banner{display: none;}
+    .features{display: none;}
+    .about{display: none;}
+    .ourTeam{display: none;}
+    .testimonials{display: none;}
+    .blog_section{display: none;}
+    .blog_section .col_flex{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
