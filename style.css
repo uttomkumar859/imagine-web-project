@@ -492,3 +492,89 @@ html{
     color: #4285f4;
 }
 /* ==== blog section  end  ==== */
+.contact{
+    width: 100%;
+    padding: 50px 0;
+}
+.contact  h1{
+    text-align: center;
+    font-size: 36px;
+    color: #000;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+.contact .form_col{
+    max-width: 60%;
+    margin: auto;
+    padding: 40px;
+    background-image: linear-gradient(rgba(4, 65, 180, 0.877),rgba(4, 35, 92, 0.918));
+}
+.contact .form_col h2{
+    color: #fff;
+    margin-bottom: 30px;
+    font-size: 28px;
+    font-weight: 500;
+}
+.contact .form_col .user_input .col_flex{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    column-gap: 40px;  
+    row-gap: 20px;
+
+}
+.contact .form_col .user_input{
+    margin: 20px 0;
+}
+.contact .form_col .user_input input{
+    width: 100%;
+    color: #fff;
+    outline: none;
+    border: 1px solid   #d5d8dc  ;
+    background-color: transparent;
+    padding: 10px 10px;
+    margin-top: 5px;
+    transition: 0.5s ease;
+}
+.contact .form_col .user_input input:focus{
+    border: 1px solid  #17a589 ;
+}
+.contact .form_col .user_input label{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    cursor: pointer;
+}
+.contact .form_col .user_input textarea{
+    color: #fff;
+    resize: none;
+    width: 100%;
+    font-size: 14px;
+    padding: 10px;
+    margin-top: 5px;
+    outline: none;
+    border: 1px solid #d5d8dc;
+    background: transparent;
+    transition: 0.5s ease;
+}
+.contact .form_col .user_input textarea:focus{
+    border: 1px solid  #17a589 ;
+}
+.contact .form_col .user_input textarea::placeholder{
+    color: #fff;
+}
+.contact .form_col .user_input button{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 40px;
+    border-radius: 50px;
+    border: none;
+    outline : none;
+    cursor: pointer;
+    box-shadow: 0px 2px 6px transparent;
+    background-color: #4285f4;
+    transition: 0.5s ease;
+}
+.contact .form_col .user_input button:hover{
+    box-shadow: 0px 2px 6px #9b9393;
+}
